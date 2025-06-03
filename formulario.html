@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container-form">
+        <div class="form-image">
+            <img src="./Imagens/imagem-10.jpeg" alt="Imagem Formulário">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title-form">
+                        <h2>Bem vinda</h2>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">Nome completo</label>
+                        <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Digite o nome da sua rua" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="bairro">Bairro</label>
+                        <input id="bairro" type="text" name="bairro" placeholder="Digite o seu bairro" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="numero">Número</label>
+                        <input id="numero" type="text" name="numero" placeholder="Digite o número da sua casa" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="complemento">Complemento</label>
+                        <input id="complemente" type="text" name="complemento" placeholder="Digite o complemento" >
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Oque você gostaria de denunciar?</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="abuso-1" name="denuncia">
+                            <label for="abuso-1">Agressão psicológica</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="abuso-2" name="denuncia">
+                            <label for="abuso-2">Agressão física</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="abuso-3" name="denuncia">
+                            <label for="abuso-3">Violência patrimonial</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="abuso-4" name="denuncia">
+                            <label for="abuso-4">Assédio moral</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="abuso-5" name="denuncia">
+                            <label for="abuso-5">Abuso sexual</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="envio.html">Enviar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

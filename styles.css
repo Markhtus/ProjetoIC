@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --branco: #fff;
+    --cor1: #d17781;
+    --cor2: #fc9483;
+    --cor3: #ffc4c2;
+    --cor4: #f25278;
+    --cor5: #5a0000;
+    --preto: #000000;
+}
+
+body{
+    background-color: var(--branco);
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    min-height: 50px;
+}
+
+.box-img-header{
+    height: 100%;
+}
+
+.img-logo{
+    max-width: 200px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.nav-links:hover{
+    color: #a55d65;
+    transition: .4s;
+    text-decoration: underline;
+}
+
+.box-btn-actions{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-action{
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
+    transition: .4s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-action:hover{
+    background-color: #fdcfcf;
+    border: 1px solid;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section{
+    padding: 4rem;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 400px;
+}
+
+.second-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+h1{
+    font-size: 4rem;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+strong{
+    color: var(--cor4);
+}
+
+.second-section p{
+    color: var(--preto);
+    font-size: 1rem;
+}
+
+.link-action{
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    border: 1px solid var(--preto);
+    color: var(--preto);
+    transition: .4s;
+}
+
+.link-action:hover{
+    background-color: #fdcfcf;
+    border: 1px solid;
+}
+
+.box-img-main{
+    max-width: 450px;
+    padding: 1rem;
+}
+
+.img-main{
+    border-radius: 30%;
+    width: 100%;
+}
+
+.first-section{
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+}
+
+.title-1, .subtitle-1{
+    color: var(--cor5);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fourth-section{
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+}
+
+.title-4, .subtitle-4{
+    color: var(--cor5);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.third-section{
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.third-section > div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third-section > div img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.third-section > div p{
+    max-width: 600px;
+    color: var(--preto);
+    text-align: justify;
+    font-size: 1.1rem;
+    color: var(--preto);
+}
+
+.third-section-b{
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.third-section-b > div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third-section-b > div img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.third-section-b > div p{
+    max-width: 600px;
+    color: var(--preto);
+    text-align: justify;
+    font-size: 1.1rem;
+    color: var(--preto);
+
+}
+
+footer{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--cor2);
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer > h2{
+    display: flex;
+    justify-content: center;
+    padding: 1;
+    color: #000000;
+}
+
+.fourth-section-2{
+    display: flex;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.container{
+    gap: 1rem;
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #f25278 0%, #fc9483 100%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+    flex-wrap: wrap;
+}
+
+.container .card:hover{
+    transform: scale(1.050);
+}
+
+.container .card .card-title{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+.container .card .card-title h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: var(--branco);
+}
+
+.container .card .card-title p{
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.container .card .card-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.container .card .card-content ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.container .card .card-content ul li i{
+    margin-right: 4px;
+}
+
+.container .card .card-content button{
+    width: 120px;
+    padding: 10px 20px;
+    background: var(--branco);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.container .card .card-content button:hover{
+    background: var(--cor3);
+}
+
+.container .card .card-content button a{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 15px;
+}
+
+.third-section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.beneficios-hid{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-esquerda{
+    width: 300px;
+    border-radius: 100px;
+}
+
+.img-direita{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.beneficios-lista{
+    max-width: 600px;
+}
+
+.container .card .card-content button{
+    width: 120px;
+    padding: 10px 20px;
+    background: var(--branco);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.button-hid{
+    width: 120px;
+    padding: 10px 20px;
+    background: var(--branco);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border-color: var(--preto);
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.button-hid:hover{
+    background: var(--cor3);
+    transition: 0.4s;
+}
+
+.button-hid a{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 15px;
+}
+
+

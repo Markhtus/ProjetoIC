@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+    background-color: var(--cor2);
+}
+
+:root{
+    --branco: #fff;
+    --cor1: #d17781;
+    --cor2: #fc9483;
+    --cor3: #ffc4c2;
+    --cor4: #f25278;
+    --cor5: #5a0000;
+    --preto: #000000;
+}
+
+.img-envio {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+}
